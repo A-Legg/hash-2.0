@@ -1,24 +1,22 @@
 
-class DOG
+DOG = {
+  :cattle_dog => {
+    preferences: [{name: "Harleigh"}],
+    names: ["Harleigh", "brown"]
+  },
 
+  "harleigh" => {
+    preferences:
+      [{favorite_toy: "frog"},
+       {favorite_food: "also steak"}],
+    information: {sport: ["frisbee", "hiking"]}},
 
-
-        dog =
-                {:name => "Harleigh",
-                  :preferences => {:favorite_toy => "frog",}
-                  {:information => :sport => ["frisbee", "hiking"]}
-                {:name => "Trixie",
-                  :preferences => {:favorite_food => "steak"},
-                  :information => {:sport => "frisbee", "hiking"}
-                }}
-
-
-
-
-        dog.first[:name]
-
-  end
-
+  "trixie" => {
+    preferences:
+      [{favorite_toy: "also frog"},
+       {favorite_food: "steak"}],
+    information: {sport:[:swimming, :prancing]}}
+}
 
 
 
